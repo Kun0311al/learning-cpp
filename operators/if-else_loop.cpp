@@ -7,11 +7,11 @@ int main(){
     if(a>=18 && a<=120){
         cout<<"you are now mature..!"<<endl;
     }
-    else(a<18){
+    else if(a<18){
         cout<<"you are child..."<<endl;
     }
-    else(a>120){
-        cout<<"please enter valid age..."<<endl;
+    else{
+        cout<<"enter valid age...";
     }
     return 0;
 }
