@@ -8,5 +8,6 @@ int main(){
     cout<<"subtraction is: "<<a-b<<endl;
     cout<<"multiplication is: "<<a*b<<endl;
     cout<<"division is: "<<a/b<<endl;
+    cout<<"modulus is: "<<a%b<<endl;
     return 0;
 }
