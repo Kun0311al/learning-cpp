@@ -11,7 +11,7 @@ void fact(int a){
     int i=1,facto=1;
     while(i<=a){
         facto=facto*1;
-        i++;
+        i=i+1;
     }
     cout<<"factorial of "<<facto<<" is "<<facto;
 }
