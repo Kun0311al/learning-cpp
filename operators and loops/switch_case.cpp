@@ -9,19 +9,19 @@ int main(){
     cin>>c;
     switch (c)
     {
-    case + :
+    case '+' :
         cout<<"addition is: "<<a+b<<endl;
         break;
-    case - :
+    case '-' :
         cout<<"subtraction is: "<<a-b<<endl;
         break;
-    case * :
+    case '*' :
         cout<<"multiplication is: "<<a*b<<endl;
         break;
-    case / :
+    case '/' :
         cout<<"division is: "<<a/b<<endl;
         break;
-    case % :
+    case '%' :
         cout<<"modulus is: "<<a%b<<endl;
         break;
     
