@@ -1,14 +1,13 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int a,b=1;
+    int a,b=0,c=1;
     cout<<"enter a number: "<<endl;
     cin>>a;
-    cout<<"get five numbers after your numbers:"<<endl;
-    while(b<=5){
-        a++;
-        cout<<a<<endl;
-        b++;
+    while(c<=a){
+        b=b+c;
+        c=c+1;
     }
+    cout<<"sum of the numbers: "<<b<<endl;
     return 0;
 }
