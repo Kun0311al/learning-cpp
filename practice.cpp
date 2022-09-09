@@ -5,7 +5,6 @@ using namespace std;
 int maxSubArraySum(int a[], int size)
 {
 	int max_so_far = INT_MIN, max_ending_here = 0;
-    for(int j = 0;j<size;j++){
         for (int i = 0; i < size; i++)
         {
             max_ending_here = max_ending_here + a[i];
@@ -15,8 +14,6 @@ int maxSubArraySum(int a[], int size)
             if (max_ending_here < 0)
                 max_ending_here = 0;
         }
-        max_ending_here = 0;
-    }
 	return max_so_far;
 }
 
